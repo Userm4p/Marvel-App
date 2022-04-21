@@ -1,4 +1,4 @@
-# getCharactes,getSeries,getStories,getComics:
+# getCharactes, getSeries, getStories, getComics:
 
 Estos helper tiene como finalidad hacer una petición al API https://developer.marvel.com/ y reciben un argumento denominado Params, el cual tiene como finalidad modificar lo que se pide, en caso de que se quieran añadir restricciones a la hora de hacer la petición, para hacer un uso correcto de este parámetro se recomienda leer la documentación de la API antes mencionada. 
 
