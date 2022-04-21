@@ -18,11 +18,11 @@ const {data, loading} = state;
 
 Este custom hook puede o no recibir un valor inicial y retornara un state y dos funciones de la siguiente manera
 
-const [Value, handleInputChange, reset] = useForm(
-    {
-        text:???
-    }
-);
+    const [Value, handleInputChange, reset] = useForm(
+        {
+            text:???
+        }
+    );
 
 para usarlo se deben agregar las propiedades "onChange" y value al/los input del formulario y definirlos como
 
