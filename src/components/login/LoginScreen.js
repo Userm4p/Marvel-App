@@ -5,8 +5,10 @@ import './LoginScreen.css';
 
 export const LoginScreen = () => {
 
+  // useDispatch es un hook que nos permite usar el dispatch de redux
   const dispatch = useDispatch();
 
+  // handleLogin es una función que se ejecuta al hacer click en el botón de login y que llama a la función login de auth.js
   const handleLogout = () => {
     dispatch(login)
   }
