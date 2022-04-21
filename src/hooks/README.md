@@ -4,10 +4,10 @@ Este custom hook recibe dos parámetros params y get, siendo params un string y 
 
 La funcionalidad de este hook es hacer una petición y si esta se hace correctamente retornar un objeto de la siguiente manera
 
-state = {
-    loading:true/false (siendo true antes de que lleguen los datos y false cuando la petición sea exitosa)
-    data:[],[????] (siendo un arreglo vacío su estado inicial y un arreglo con los datos si la petición es exitosa)
-}
+    state = {
+        loading:true/false (siendo true antes de que lleguen los datos y false cuando la petición sea exitosa)
+        data:[],[????] (siendo un arreglo vacío su estado inicial y un arreglo con los datos si la petición es exitosa)
+    }
 
 se usa de la siguiente forma: 
 
