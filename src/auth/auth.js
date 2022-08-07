@@ -6,6 +6,9 @@ export const login =  {
     }
 ;  
 // accion que permite al usuario desautenticarse
-export const logout =  {
+export const logout =  { 
     type: types.logout
+    
+    
+    
 };
